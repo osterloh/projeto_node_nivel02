@@ -14,16 +14,16 @@ Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.c
 
 ```bash
 # Para clonar este repositório
-$ git clone https://github.com/osterloh/nodeJS_01.git
+$ git clone https://github.com/osterloh/projeto_node_nivel02.git
 
 # Entrar no repositório
-$ cd nodeJS_01
+$ cd projeto_node_nivel02
 
 # Instalar as dependências
 $ yarn
 
 #  Executar o sistema
-$ yarn dev
+$ yarn dev:server
 ```
 
 ## Etapas do desenvolvimento do projeto
@@ -115,7 +115,7 @@ routes.use("/appointments", appointmentsRouter);
 export default routes;
 ```
 
-- Para tratar horas podemos utilizar a lib <strong>date-fns</strong>:
+- Para tratar horas podemos utilizar a lib <strong>[date-fns](https://github.com/date-fns/date-fns)</strong>:
 
 ```js
 yarn add date-fns
@@ -137,11 +137,11 @@ const appointments: Appointment[] = [];
 
 - [nodeJS](https://nodejs.org/)
 - [yarn](https://yarnpkg.com/)
-- [Typescript](https://www.typescriptlang.org///)
+- [Typescript](https://www.typescriptlang.org)
 - [express](https://github.com/expressjs/express)
 - [nodemon](https://github.com/remy/nodemon)
 - [uuidv4](https://github.com/thenativeweb/uuidv4)
-- [cors](https://github.com/expressjs/cors)
+- [date-fns](https://github.com/date-fns/date-fns)
 
 ---
 
