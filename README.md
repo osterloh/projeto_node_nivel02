@@ -133,6 +133,14 @@ interface Appointment {
 const appointments: Appointment[] = [];
 ```
 
+- As <i>Rotas</i> devem se preocupar em receber a requisição, chamar outro arquivo, devolver uma resposta. Ela não deve ser responsável por tratar as informações ou realizar ações lógicas complexas.
+
+- Para tratar as informações e regras de negócio, podemos configurar as chamadas da <i>Rota</i> para os <strong>Services</strong>.
+
+- Neste projeto já foi utilizado dois conceitos do SOLID:
+- S: Single Responsability Principal
+- D: Dependency Invertion Principal
+
 ## Tecnologias
 
 - [nodeJS](https://nodejs.org/)
