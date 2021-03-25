@@ -138,8 +138,10 @@ const appointments: Appointment[] = [];
 - Para tratar as informações e regras de negócio, podemos configurar as chamadas da <i>Rota</i> para os <strong>Services</strong>.
 
 - Neste projeto já foi utilizado dois conceitos do SOLID:
-- S: Single Responsability Principal
-- D: Dependency Invertion Principal
+```bash
+* S: Single Responsability Principal
+* D: Dependency Invertion Principal
+```
 
 ## Tecnologias
 
